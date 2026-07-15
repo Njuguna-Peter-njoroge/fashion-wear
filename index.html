@@ -205,9 +205,97 @@
 
     </div>
     </div>
+
+   
     
 </div>
+<div class="contact-us">
+    <div class="contact-us-header">
+        <h2>STAY IN THE LOOP</h2>
+        <h4>The Maison Edit</h4>
+        <p>New arrivals, styling notes, and early access to sales. Delivered fortnightly, never more.</p>
+    </div>
 
+    <div class="contact-us-footer">
+        <form action="/subscribe" method="post">
+            <label for="email">
+                <input type="email" name="email" id="email" placeholder="Your email address">
+            </label>
+            <button type="submit">SUBSCRIBE</button>
+            <p>No spam, unsubscribe at any time</p>
+        </form>
+    </div>
+</div>
+
+<div class="modal-overlay" id="authModal">
+    <div class="modal-box">
+        <button class="modal-close" id="modalClose">&times;</button>
+        <h3 id="modalTitle">Login</h3>
+        <form id="authForm">
+            <input type="email" placeholder="Email address" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit" id="modalSubmit">Login</button>
+        </form>
+    </div>
+</div>
+
+
+<footer class="footer">
+    <div class="footer-top">
+        <div class="footer-brand">
+            <div class="footer-label">MAISON</div>
+            <p>Where classic style meets modern ease. Timeless pieces, made for everyday life.</p>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-links">
+            <h5>Shop</h5>
+            <ul>
+                <li><a href="#">Women's Wear</a></li>
+                <li><a href="#">Men's Wear</a></li>
+                <li><a href="#">Children's Wear</a></li>
+                <li><a href="#">New Arrivals</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <h5>Company</h5>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Store Locator</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links">
+            <h5>Support</h5>
+            <ul>
+                <li><a href="#">Shipping & Returns</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Size Guide</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Maison. All rights reserved.</p>
+        <div class="footer-payments">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+        </div>
+    </div>
+</footer>
+
+<script src="./index.js"></script>
+   
 </body> 
  
 
